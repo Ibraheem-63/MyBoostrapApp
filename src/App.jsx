@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './Hero'
 import About from './About'
+import Services from './Services'
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
      
      <Hero/>
      <About/>
+     <Services/>
     </div>
   )
 }
